@@ -53,7 +53,7 @@ print("Length:", len(name))
 print(name.replace("4090","3050"))
 
 
-print('Hello Sir my Name is OM\n I am Python Developer\n Working as Agentic Ai Builder')
+print('Hello Sir my Name is Om\n I am Python Developer\n Working as Agentic Ai Builder')
 
 a="Hello   WOrld "
 print(a.replace("O","o"))  
