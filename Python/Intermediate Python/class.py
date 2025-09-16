@@ -76,6 +76,7 @@ a.greet()
 a.square()
 a.cube()
 a.squareroot()
+print("Hello Om")            
 
 
 # Q3.]

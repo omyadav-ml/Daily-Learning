@@ -6,7 +6,7 @@
 # a.close()
 
 # # To write File
-# a="Om What you Doing Rn,Chilling "
+# a="Om What you Doing Rn,Chilling :"
 # f=open("myfile.txt","w")
 # f.write(a)
 # f.close()
