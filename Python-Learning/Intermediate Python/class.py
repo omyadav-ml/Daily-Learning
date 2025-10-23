@@ -98,3 +98,27 @@ t=Train(245)
 t.book("Varanasi","Mumbai")
 t.getStatus()
 t.getFare("Varanasi","Mumbai")
+
+# Example of super init 
+# Without super init
+class Parent():
+    def __init__(self):
+        print('This is a Parent class')
+class Child(Parent):
+    def __init__(self):
+        print('This is child class')
+
+abc=Child()
+# The parent comstructor is never called cuz we did'nt use super.init
+# now woth super init function
+
+class Boss():
+    def __init__(self):
+        print("This is boss")
+class Employee(Boss):
+    def __init__(self):
+        super().__init__()
+        print('This is Employee')
+
+xyz=Employee()
+
