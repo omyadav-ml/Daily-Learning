@@ -53,3 +53,4 @@ print(reduce(subtract,li))
 
 mul=lambda x,y:x*y
 print(reduce(mul,li))
+

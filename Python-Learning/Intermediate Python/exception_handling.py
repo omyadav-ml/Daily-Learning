@@ -1,3 +1,4 @@
+import module
 """
 #This is match statement note a case statement cuz in python does not have case statement
 def week(num):
