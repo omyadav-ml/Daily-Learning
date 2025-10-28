@@ -23,11 +23,11 @@
 
 
 # # slicing in python 
-# name = "Nainaol"
+name = "Nainaol"
 
 # print(name[0:5])
 
-# print(name[-6: -1])
+print(name[-6: -1])
 # print(name[1:4])
 
 # print(name[:4]) # is same as print(name[0:4])
