@@ -1,24 +1,24 @@
-# a=5-6
-# print(a)
-# b=20
-# b%=19
-# print(b)
-# # comparison operator
-# a= 1==4
-# h= 67!=69 
-# print(h)
-# print(a)
+a=5-6
+print(a)
+b=20
+b%=19
+print(b)
+# comparison operator
+a= 1==4
+h= 67!=69 
+print(h)
+print(a)
 # #  type funcyions
-# a= 56.54
-# b= str(a)
-# c=type(b)
-# print(c)
+a= 56.54
+b= str(a)
+c=type(b)
+print(c)
 
 
-# y=34
-# z=5
-# x= y%z
-# print(x)
+y=34
+z=5
+x= y%z
+print(x)
 
 
 
@@ -28,11 +28,11 @@ name = "Nainaol"
 # print(name[0:5])
 
 print(name[-6: -1])
-# print(name[1:4])
+print(name[1:4])
 
-# print(name[:4]) # is same as print(name[0:4])
-# print(name[1:]) # is same as print(name[1:6])
-# print(name[1:5])
+print(name[:4]) # is same as print(name[0:4])
+print(name[1:]) # is same as print(name[1:6])
+print(name[1:5])
 
 m="hpvictus16gb512storsge"
 print(m[3:12:2])
