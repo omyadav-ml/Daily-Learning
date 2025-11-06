@@ -59,4 +59,8 @@ s.add('20')
 print(s)
 print(len(s))
 
+from functools import reduce
+
+nums=[2,3,4,5]
+print(reduce(lambda a,b:a+b,nums))
 
