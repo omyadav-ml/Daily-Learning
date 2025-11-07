@@ -57,7 +57,7 @@ print('Hello Sir my Name is Om\n I am Python Developer\n Working as Agentic Ai B
 
 a="Hello   WOrld "
 print(a.replace("O","o"))  
-print(a.rstrip)
+print(a.rstrip())
 
 letter='Dear Aryan,\n\tThis python course is nice.\nThanks!'
 print(letter)
