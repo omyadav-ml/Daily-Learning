@@ -39,7 +39,8 @@ print(m[3:12:2])
 print(m[4:9:2])
 print(m[2: :10]) 
 print(m[2: :3])
-
+m=m.replace("storsge","storage")
+print(m)
 # string functions in python
 str='Naina'
 print(len(str))
