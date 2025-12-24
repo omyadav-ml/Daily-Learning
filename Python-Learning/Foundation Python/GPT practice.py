@@ -40,8 +40,8 @@
 # print(fruits)
 
 name=input("Enter your name: ")
-print(f"hello{name}")
-print("name type(name)")
+print(f"Hello {name}")
+print("name",type(name))
 
 cities = ["Mumbai", "Delhi", "Mumbai", "Pune", "Delhi"]
 intersection = set(cities)
