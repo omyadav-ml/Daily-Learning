@@ -46,6 +46,6 @@ def sum(n):
         return 1
     return sum(n-1)+n
 a=(sum(num))
-print(f"Sum of numbers from 1 to{num} is: {a}")
+print(f"Sum of numbers from 1 to {num} is: {a}")
 
 
