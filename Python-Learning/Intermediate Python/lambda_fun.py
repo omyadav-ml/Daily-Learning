@@ -30,7 +30,7 @@ print(list(result))
 
 num=[1,3,5,7,9]
 result=map(lambda x:x**2,num)
-print(list(result))
+print(tuple(result))
 
 # filter example
 li=[1,2,3,4,5,6,7,8,9,10]
