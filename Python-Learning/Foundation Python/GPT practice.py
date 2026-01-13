@@ -27,10 +27,10 @@
 # # print(max(numbers))
 # # print(min(numbers))
 
-# # tuple=("red", "green","blue", "yellow"," purple"," silver")
-# # print(tuple[1])  
-# # print(tuple[4])
-# # print(tuple.count("blue"))
+tuple=("red", "green","blue", "yellow"," purple"," silver","blue")
+print(tuple[1])  
+print(tuple[4])
+print(tuple.count("blue"))
 
 
 # items=[23,34,45,56]

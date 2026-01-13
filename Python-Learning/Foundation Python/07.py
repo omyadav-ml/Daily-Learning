@@ -1,11 +1,11 @@
-# # # function defination
-# # def fun():
-# #     print("Have A Great Day")
-# # # function call
-# # fun()
-# # print("Thank You")
-# # # fun()
-# # def factorial(n):
+# function defination
+def fun():
+    print("Have A Great Day")
+# function call
+fun()
+print("Thank You")
+# fun()
+# def factorial(n):
 
 # #     if n == 0 or n==1:  
 # #         return 1 
@@ -40,6 +40,7 @@
 # print("a")
 # print("b", end="")
 # print("c", end="")
+
 num=int(input("Enter a Number to sum: "))
 def sum(n):
     if(n==1):

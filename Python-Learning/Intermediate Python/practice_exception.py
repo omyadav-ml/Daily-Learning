@@ -116,4 +116,4 @@ square=[x**2 for x in range(1,21) if x % 2==0]
 print(square)
 
 
-
+# Exception occurs when there is an error during the execution of a program that disrupts the normal flow of instructions. Examples include ZeroDivisionError, FileNotFoundError, and ValueError.
