@@ -37,23 +37,33 @@ print(s)
 
 # s = {8, 7, 12, "Harry", [1,2]}
 
-dict={}
-name=input("Enter friend's name: ")
-language=input("Enter friend's language: ")
-dict.update({name: language})
+# dict={}
+# name=input("Enter friend's name: ")
+# language=input("Enter friend's language: ")
+# dict.update({name: language})
 
-name=input("Enter friend's name: ")
-language=input("Enter friend's language: ")
-dict.update({name: language})
+# name=input("Enter friend's name: ")
+# language=input("Enter friend's language: ")
+# dict.update({name: language})
 
-name=input("Enter friend's name: ")
-language=input("Enter friend's language: ")
-dict.update({name: language})
+# name=input("Enter friend's name: ")
+# language=input("Enter friend's language: ")
+# dict.update({name: language})
 
-name=input("Enter friend's name: ")
-language=input("Enter friend's language: ")
-dict.update({name: language})
+# name=input("Enter friend's name: ")
+# language=input("Enter friend's language: ")
+# dict.update({name: language})
 
-print(dict)
+# print(dict)
 
+
+friends={}
+
+for i in range(4):
+    name=input("Enter name: ")
+    lang=input("Enter language: ")
+    friends.update({name:lang})
+    # friends[name]= lang
+
+print(friends)
 

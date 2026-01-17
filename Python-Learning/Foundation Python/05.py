@@ -32,17 +32,17 @@
 # else:
 #     print("Poor")
 # print("Your Grade is :",c)
-# m1=int(input("Enter Marks 1:"))
-# m2=int(input("Enter Marks 2:"))
-# m3=int(input("Enter Marks 3:"))
+m1=int(input("Enter Marks 1:"))
+m2=int(input("Enter Marks 2:"))
+m3=int(input("Enter Marks 3:"))
 
-# total_percentage=(100*(m1+m2+m3)/300)
+total_percentage=((m1+m2+m3)/300)*100
 
-# if(total_percentage>=40 and m1>=33 and m2>=33 and m3>=33):
-#     print("you are passed",total_percentage)
+if(total_percentage>=40 and m1>=33 and m2>=33 and m3>=33):
+    print("you are passed",total_percentage)
 
-# else:
-#     print("you are failed,try next year",total_percentage)
+else:
+    print("you are failed,try next year",total_percentage)
 
 list=["om","aryan","Babbu"]
 name=input("Enter Your Name:")
