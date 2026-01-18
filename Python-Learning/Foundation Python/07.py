@@ -1,6 +1,7 @@
 # function defination
 def fun():
     print("Have A Great Day")
+    # fun()
 # function call
 fun()
 print("Thank You")
