@@ -33,8 +33,8 @@
 
 
 
-for i in range (6,61,6):
-    print(i)
+# for i in range (6,61,6):
+#     print(i)
 
 
 # # To exit the loop now
@@ -77,7 +77,10 @@ for i in range (6,61,6):
 #     print(f"{n} X {i} = {n*i}")
 #     i+=1 
 
+# for i in range(1,11):
+#     print(f"{n} x {i} = {n*i}")
 
+          
 # n=int(input("Enter a number: "))
 # fact=1
 # for i in range(1,n+1):
@@ -94,6 +97,10 @@ for i in range (6,61,6):
 #         print(" "*(n-2),end="")
 #         print("*",end="")
 #     print("")
+
+
+for i in range(5,0,-1):
+    print(i* "*")
 
 
 for i in range(1,5):
