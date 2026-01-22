@@ -92,3 +92,32 @@ c1 = Complex(3, 2)
 c2 = Complex(1, 7)
 c3 = c1 + c2   
 print(c3)    
+
+
+import random
+
+class Dice:
+    def roll(self):
+        a=(1,2,3,4,5,6)
+        b=(1,2,3,4,5,6)
+        m=random.choice(a)
+        n=random.choice(b)
+        print(f" {m},{n}")
+
+om=Dice()
+om.roll()
+
+
+class BankAccount:
+    def __init__(self,name,balance):
+        self.name=name
+        self.balance=balance
+    def deposit(self,amount):
+        self.balance+=amount
+
+    def show_balance(self):
+        print("Balance",self.balance)    
+
+acc=BankAccount("Om",1000)
+acc.deposit(500)
+acc.show_balance()    
