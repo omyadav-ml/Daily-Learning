@@ -8,4 +8,4 @@ if total== 180 and a1>0 and a2>0 and a3>0:
 else:
     print("It is not an triangle")
 
-print("It is Triangle" if total== 180 and a1>0 and a2>0 and a3>0 else "It is not an triangle" )
+# print("It is Triangle" if total== 180 and a1>0 and a2>0 and a3>0 else "It is not an triangle" )
