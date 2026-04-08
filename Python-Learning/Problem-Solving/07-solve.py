@@ -11,4 +11,4 @@ print(new_lst)
 #Q3.]
 words=["C","C++","Python","Java","Html"]
 long_words=[word for word in words if len(word)>3]
-print(words)
+print(long_words)
